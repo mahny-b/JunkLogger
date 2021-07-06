@@ -1,5 +1,6 @@
 # JunkLogger
 It's a very simple logger, so I can use it. It is used for development that does not require the introduction of a full-fledged logger.
+
 log4net等の本格的なロガーを入れるまでもないけど、Excelアドイン開発等でちょっと確認したい時にコピペで使える簡易ロガーです。
 商用リリース的なものには向きません。せいぜい社内利用に留めて下さい。
 機能拡張を考えるくらいなら素直にlog4net等の導入を検討してください。
@@ -47,7 +48,7 @@ this.Level = LogLevel.Info;
 ```
 
 ログレベルは7段階あります。`None`は特別なレベルでログを出さなくなります。
-Trace < Debug < Info < Warn < Error < Fatal < None
+`Trace < Debug < Info < Warn < Error < Fatal < None`
 
 
 ## 出力先変更
